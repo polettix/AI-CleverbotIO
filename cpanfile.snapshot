@@ -1,5 +1,26 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
+  Class-Method-Modifiers-2.12
+    pathname: E/ET/ETHER/Class-Method-Modifiers-2.12.tar.gz
+    provides:
+      Class::Method::Modifiers 2.12
+    requirements:
+      B 0
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      base 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Devel-GlobalDestruction-0.14
+    pathname: H/HA/HAARG/Devel-GlobalDestruction-0.14.tar.gz
+    provides:
+      Devel::GlobalDestruction 0.14
+    requirements:
+      ExtUtils::MakeMaker 0
+      Sub::Exporter::Progressive 0.001011
+      perl 5.006
   ExtUtils-Config-0.008
     pathname: L/LE/LEONT/ExtUtils-Config-0.008.tar.gz
     provides:
@@ -39,6 +60,38 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  HTTP-Tiny-0.070
+    pathname: D/DA/DAGOLDEN/HTTP-Tiny-0.070.tar.gz
+    provides:
+      HTTP::Tiny 0.070
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.17
+      Fcntl 0
+      IO::Socket 0
+      MIME::Base64 0
+      Socket 0
+      Time::Local 0
+      bytes 0
+      perl 5.006
+      strict 0
+      warnings 0
+  IO-Socket-SSL-2.040
+    pathname: S/SU/SULLR/IO-Socket-SSL-2.040.tar.gz
+    provides:
+      IO::Socket::SSL 2.040
+      IO::Socket::SSL::Intercept 2.014
+      IO::Socket::SSL::OCSP_Cache 2.040
+      IO::Socket::SSL::OCSP_Resolver 2.040
+      IO::Socket::SSL::PublicSuffix undef
+      IO::Socket::SSL::SSL_Context 2.040
+      IO::Socket::SSL::SSL_HANDLE 2.040
+      IO::Socket::SSL::Session_Cache 2.040
+      IO::Socket::SSL::Utils 2.014
+    requirements:
+      ExtUtils::MakeMaker 0
+      Net::SSLeay 1.46
+      Scalar::Util 0
   Module-Build-Tiny-0.039
     pathname: L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz
     provides:
@@ -64,6 +117,56 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Module-Runtime-0.014
+    pathname: Z/ZE/ZEFRAM/Module-Runtime-0.014.tar.gz
+    provides:
+      Module::Runtime 0.014
+    requirements:
+      Module::Build 0
+      Test::More 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Moo-2.003000
+    pathname: H/HA/HAARG/Moo-2.003000.tar.gz
+    provides:
+      Method::Generate::Accessor undef
+      Method::Generate::BuildAll undef
+      Method::Generate::Constructor undef
+      Method::Generate::DemolishAll undef
+      Moo 2.003000
+      Moo::HandleMoose undef
+      Moo::HandleMoose::FakeConstructor undef
+      Moo::HandleMoose::FakeMetaClass undef
+      Moo::HandleMoose::_TypeMap undef
+      Moo::Object undef
+      Moo::Role 2.003000
+      Moo::_Utils undef
+      Moo::_mro undef
+      Moo::_strictures undef
+      Moo::sification undef
+      oo undef
+    requirements:
+      Class::Method::Modifiers 1.1
+      Devel::GlobalDestruction 0.11
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Module::Runtime 0.014
+      Role::Tiny 2.000004
+      Scalar::Util 0
+      Sub::Defer 2.003001
+      Sub::Quote 2.003001
+      perl 5.006
+  Net-SSLeay-1.79
+    pathname: M/MI/MIKEM/Net-SSLeay-1.79.tar.gz
+    provides:
+      Net::SSLeay 1.79
+      Net::SSLeay::Handle 0.61
+    requirements:
+      ExtUtils::MakeMaker 6.36
+      MIME::Base64 0
+      Test::More 0.60_01
+      perl 5.005
   Path-Tiny-0.098
     pathname: D/DA/DAGOLDEN/Path-Tiny-0.098.tar.gz
     provides:
@@ -89,6 +192,29 @@ DISTRIBUTIONS
       perl 5.008001
       strict 0
       warnings 0
+  Role-Tiny-2.000005
+    pathname: H/HA/HAARG/Role-Tiny-2.000005.tar.gz
+    provides:
+      Role::Tiny 2.000005
+      Role::Tiny::With 2.000005
+    requirements:
+      Exporter 5.57
+      perl 5.006
+  Sub-Exporter-Progressive-0.001013
+    pathname: F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz
+    provides:
+      Sub::Exporter::Progressive 0.001013
+    requirements:
+      ExtUtils::MakeMaker 0
+  Sub-Quote-2.003001
+    pathname: H/HA/HAARG/Sub-Quote-2.003001.tar.gz
+    provides:
+      Sub::Defer 2.003001
+      Sub::Quote 2.003001
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      perl 5.006
   Template-Perlish-1.52
     pathname: P/PO/POLETTIX/Template-Perlish-1.52.tar.gz
     provides:
