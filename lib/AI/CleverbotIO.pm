@@ -13,8 +13,8 @@ has endpoints => (
    is      => 'ro',
    default => sub {
       return {
-         create => 'https://cleverbot.io/1.0/create',
          ask    => 'https://cleverbot.io/1.0/ask',
+         create => 'https://cleverbot.io/1.0/create',
       };
    },
 );
