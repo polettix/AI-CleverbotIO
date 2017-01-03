@@ -39,12 +39,20 @@
       },
       "runtime" : {
          "requires" : {
+            "HTTP::Tiny" : "0.070",
+            "IO::Socket::SSL" : "1.56",
+            "JSON::PP" : "0",
+            "Log::Any" : "1.045",
+            "Moo" : "2.003000",
+            "Net::SSLeay" : "1.49",
+            "Ouch" : "0.0410",
             "perl" : "5.010"
          }
       },
       "test" : {
          "requires" : {
             "Path::Tiny" : "0.096",
+            "Test::Exception" : "0.43",
             "Test::More" : "0.88"
          }
       }
