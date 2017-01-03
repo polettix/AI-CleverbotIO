@@ -1,0 +1,5 @@
+.build/
+*.swp
+/local/
+/AI-CleverbotIO-*.tar.gz
+/AI-CleverbotIO-*/
